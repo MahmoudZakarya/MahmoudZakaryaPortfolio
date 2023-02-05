@@ -59,6 +59,7 @@
     letter-spacing: 0.4px;
     text-transform: capitalize;
     transition: 0.3s ease-in-out;
+    min-width: revert;
 }
 
 .btn:hover{
