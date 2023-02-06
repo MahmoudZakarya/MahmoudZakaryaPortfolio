@@ -7,6 +7,7 @@ import ShowCaseArea from '@/components/showcase-area/showcase-area'
 import About from '@/components/about/about'
 import Skills from '@/components/skills/skills'
 import Services from '@/components/services/services'
+import Portfolio from '@/components/portfolio/portfolio'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,6 +28,7 @@ export default function Home() {
         <About/>
         <Skills/> 
         <Services/>
+        <Portfolio/>
        
        <div style={{height:"120vh"}}></div>
       </main>
