@@ -6,6 +6,7 @@ import '@/styles/skills.css'
 import '@/styles/services.css'
 import '@/styles/portfolio.css'
 import '@/styles/testimonials.css'
+import '@/styles/contact.css'
 
 
 export default function App({ Component, pageProps }) {
