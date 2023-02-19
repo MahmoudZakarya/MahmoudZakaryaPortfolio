@@ -56,7 +56,7 @@ function Services() {
     })
 
   return (
-    <section className="services section">
+    <section className="services section" id='services'>
         <Image src={TriangleImg} className='shape triangle' alt='' width={95}/>
         
         <div className="container">

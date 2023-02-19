@@ -23,19 +23,19 @@ function Header() {
         <div className="links">
           <ul>
             <li>
-              <a href="#" className="nav-link">Home</a>
+              <a href="#home" className="nav-link">Home</a>
             </li>
             <li>
-              <a href="#" className="nav-link">About</a>
+              <a href="#about" className="nav-link">About</a>
             </li>
             <li>
-              <a href="#" className="nav-link">Services</a>
+              <a href="#services" className="nav-link">Services</a>
             </li>
             <li>
-              <a href="#" className="nav-link">Portfolio</a>
+              <a href="#portfolio" className="nav-link">Portfolio</a>
             </li>
             <li>
-              <a href="#" className="nav-link">Contact</a>
+              <a href="#contact" className="nav-link">Contact</a>
             </li>
           </ul>
           <i className="uil uil-moon toggle-btn"></i>

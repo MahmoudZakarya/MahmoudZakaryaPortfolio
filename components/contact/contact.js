@@ -1,8 +1,15 @@
+import Image from 'next/image'
 import React from 'react'
+import TriangleImg from '../../public/assets/triangle.png'
+import Square2Img from '../../public/assets/square2.png'
+
+
 
 function Contact() {
   return (
-    <section className="contact section">
+    <section className="contact section" id='contact'>
+      <Image src={TriangleImg} width={95} alt='' className='shape triangle' />
+      <Image src={Square2Img} width={75} alt='' className='shape square' />
         <div className="container">
             <div className="contact-info">
                 <h3 className="sub-heading">Contact Me</h3>

@@ -10,10 +10,40 @@ import Services from '@/components/services/services'
 import Portfolio from '@/components/portfolio/portfolio'
 import Testimonials from '@/components/testimonials/testimonials'
 import Contact from '@/components/contact/contact'
+import Subscription from '@/components/subscription/subscription'
+import { useEffect } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
+
+
 export default function Home() {
+
+  useEffect(()=>{
+
+    const header = document.querySelector("header");
+
+    function activeLink(){
+    let sections = document.querySelectorAll("section[id]");
+    let passedSections = Array.from(sections).map((sct, i )=>{
+      return {
+        y: sct.getBoundingClientRect().top - header.offsetHeight,
+        id: i, 
+       };
+    }).filter(sct => sct.y <= 0);
+
+    let currSectionID = passedSections.at(-1).id; 
+    links.forEach(l => l.classList.remove("active"));
+    links[currSectionID].classList.add("active");
+
+    }
+    const links = document.querySelectorAll(".nav-link")
+    
+
+    globalThis.addEventListener("scroll", ()=>{
+      activeLink();
+    })
+})
   return (
     <>
       <Head>
@@ -33,9 +63,21 @@ export default function Home() {
         <Portfolio/>
         <Testimonials/>
         <Contact/>
+        <Subscription />
        
-       <div style={{height:"120vh"}}></div>
       </main>
+      <footer>
+        <div className="container">
+          <a href="#" className="logo">Mahmoud  <span>Zakaria</span></a>
+          <p className="text">&copy; Copyrights 2023, All Rights Reserved.</p>
+          <ul className="social-media">
+            <li><a href="#" className="social-link"><i class="uil uil-facebook-f"></i></a></li>
+            <li><a href="#" className="social-link"><i class="uil uil-twitter"></i></a></li>
+            <li><a href="#" className="social-link"><i class="uil uil-github"></i></a></li>
+          </ul>
+
+        </div>
+      </footer>
     </>
   )
 }

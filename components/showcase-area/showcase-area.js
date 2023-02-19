@@ -25,7 +25,7 @@ function ShowCaseArea() {
   }, []);
 
   return (
-    <section className="showcase-area">
+    <section className="showcase-area" id='home'>
         <img src="assets/square1.png" className='shape square' alt="" />
         <div className="container">
             <div className="showcase-info" ref={showcaseInfo}>

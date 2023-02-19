@@ -8,7 +8,7 @@ import TriangleImg from '../../public/assets/triangle.png'
 
 function About() {
   return (
-    <section className="about section">
+    <section className="about section" id='about'>
       <Image src={TriangleImg} className='shape triangle' alt='' width={95}/>  
         <div className="container">
             <div className="about-grid">

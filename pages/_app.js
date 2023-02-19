@@ -7,6 +7,7 @@ import '@/styles/services.css'
 import '@/styles/portfolio.css'
 import '@/styles/testimonials.css'
 import '@/styles/contact.css'
+import '@/styles/subscription.css'
 
 
 export default function App({ Component, pageProps }) {

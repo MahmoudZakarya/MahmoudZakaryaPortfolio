@@ -87,7 +87,7 @@ function Portfolio() {
 
 
   return (
-    <section className="portfolio section" ref={prtSection}>
+    <section className="portfolio section" ref={prtSection} id='portfolio'>
         <div className="modal">
             <div className="modal-overlay" ref={modalOverlay}></div>
                 <div className="slider-wrap">

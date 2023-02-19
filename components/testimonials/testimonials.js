@@ -14,7 +14,7 @@ function Testimonials() {
 
 
   return (
-    <section className="testimonials section">
+    <section className="testimonials section" >
         <div className="container">
             <div className="section-background">
                 <Image src={Mahmoud} height={500} alt='That`s Me!' className='person'/>
