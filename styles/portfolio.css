@@ -25,6 +25,7 @@
   margin-left: 1.3rem;
   font-family: inherit;
   text-transform: uppercase;
+  transition: 0.7s ease-in-out color;
 }
 
 .filter-btn.mixitup-control-active {
@@ -43,6 +44,7 @@
   height: 265px;
   display: grid;
   grid-template-rows: 1fr auto;
+  transition: 0.7s ease-in-out background-color;
 }
 
 .prt-image {
@@ -71,6 +73,8 @@
   font-size: 0.95rem;
   color: var(--heading-color);
   font-weight: 600;
+  transition: 0.7s ease-in-out color;
+
   text-transform: capitalize;
 }
 

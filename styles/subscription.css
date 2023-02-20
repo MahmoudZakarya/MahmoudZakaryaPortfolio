@@ -11,6 +11,7 @@
   grid-template-columns: repeat(2, 1fr);
   column-gap: 6rem;
   align-items: center;
+  transition: 0.7s ease-in-out background-color;
 }
 
 .sub-box .heading {

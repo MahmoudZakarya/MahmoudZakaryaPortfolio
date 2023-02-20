@@ -16,6 +16,7 @@
   padding: 2rem 0 2.5rem;
   background-color: var(--bg-color-2);
   border-radius: 15px;
+  transition: 0.7s ease-in-out background-color;
 }
 
 .swiper-pagination {
@@ -62,6 +63,7 @@
   color: var(--heading-color);
   margin-bottom: 0.4rem;
   font-size: 1.07rem;
+  transition: 0.7s ease-in-out color;
 }
 
 .client-info h5 {

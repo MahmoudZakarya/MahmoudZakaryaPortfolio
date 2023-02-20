@@ -30,6 +30,7 @@
   line-height: 0.9;
   font-weight: 500;
   font-size: 0.95rem;
+  transition: 0.7s ease-in-out color;
 }
 
 .services-grid {
@@ -49,6 +50,7 @@
   align-items: flex-start;
   justify-content: space-between;
   min-height: 280px;
+  transition: 0.7s ease-in-out background-color;
 }
 
 .srv-card .text {
@@ -60,6 +62,7 @@
   color: var(--heading-color);
   font-weight: 500;
   font-size: 1.08rem;
+  transition: 0.7s ease-in-out color;
 }
 
 .srv-card:nth-child(2) {

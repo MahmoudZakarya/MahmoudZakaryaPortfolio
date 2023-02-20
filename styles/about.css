@@ -67,6 +67,7 @@
   font-size: 1.1rem;
   margin-top: 1rem;
   letter-spacing: 0.3px;
+  transition: 0.7s ease-in-out color;
 }
 
 .about-card {
@@ -78,7 +79,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, 0.7s ease-in-out background-color;
 }
 
 .about-card:hover {
@@ -97,6 +98,7 @@
 .design_svg__st0,
 .prototype_svg__st0 {
   fill: var(--bg-color-3);
+  transition: 0.7s ease-in-out fill;
 }
 
 .research_svg__st1,
@@ -104,6 +106,7 @@
 .design_svg__st1,
 .prototype_svg__st1 {
   fill: #c6e4ea;
+  transition: 0.7s ease-in-out fill;
 }
 
 .research_svg__st2,
@@ -112,6 +115,7 @@
 .prototype_svg__st2 {
   fill: var(--heading-color);
   transition: 0.3s;
+  transition: 0.7s ease-in-out fill;
 }
 
 .about-card:hover .research_svg__st2 {

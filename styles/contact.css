@@ -33,6 +33,7 @@
   padding: 3.5rem 3rem;
   display: flex;
   flex-direction: column;
+  transition: 0.7s ease-in-out background-color;
 }
 
 .contact-form h3 {
@@ -41,6 +42,7 @@
   font-weight: 600;
   margin-bottom: 1.6rem;
   line-height: 0.9;
+  transition: 0.7s ease-in-out color;
 }
 
 .form-input {
@@ -55,7 +57,8 @@
   font-weight: 600;
   color: var(--heading-color);
   outline: none;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out, 0.7s ease-in-out background-color,
+    0.7s ease-in-out border-color, 0.7s ease-in-out color;
 }
 
 .form-input:hover {
