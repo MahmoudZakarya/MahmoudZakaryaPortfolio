@@ -8,6 +8,7 @@ import '@/styles/portfolio.css'
 import '@/styles/testimonials.css'
 import '@/styles/contact.css'
 import '@/styles/subscription.css'
+import '@/styles/responsive.css'
 
 
 export default function App({ Component, pageProps }) {
