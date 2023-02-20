@@ -2,6 +2,20 @@ import React, { useEffect, useRef } from 'react'
 
 function Header() {
 
+  function openNav(){
+    if(!document.body.classList.contains("open")){
+      document.body.classList.add("open");
+    }else{
+      document.body.classList.remove("open");
+
+    }
+  }
+
+  function closeNav(){
+   
+      document.body.classList.remove("open");
+   
+  }
 
   function changeTheme(isDark){
       const toggle_btn = document.querySelector(".toggle-btn")
@@ -38,23 +52,27 @@ function Header() {
         <div className="links">
           <ul>
             <li>
-              <a href="#home" className="nav-link">Home</a>
+              <a href="#home" className="nav-link" onClick={()=>{closeNav()}}>Home</a>
             </li>
             <li>
-              <a href="#about" className="nav-link">About</a>
+              <a href="#about" className="nav-link" onClick={()=>{closeNav()}}>About</a>
             </li>
             <li>
-              <a href="#services" className="nav-link">Services</a>
+              <a href="#services" className="nav-link" onClick={()=>{closeNav()}}>Services</a>
             </li>
             <li>
-              <a href="#portfolio" className="nav-link">Portfolio</a>
+              <a href="#portfolio" className="nav-link" onClick={()=>{closeNav()}}>Portfolio</a>
             </li>
             <li>
-              <a href="#contact" className="nav-link">Contact</a>
+              <a href="#contact" className="nav-link" onClick={()=>{closeNav()}}>Contact</a>
             </li>
           </ul>
           <i className="uil uil-moon toggle-btn" onClick={()=> changeTheme(!document.body.classList.contains("dark"))}></i>
         </div>  
+        <div className="hamburger" onClick={()=> {openNav()}}>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </div>
       </nav>        
     </header>
   )

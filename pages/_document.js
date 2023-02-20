@@ -10,6 +10,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body>
+        <div className="overlay"></div>
         <Main />
         <NextScript />
         <Script src='../utilities/mixitup.min.js'></Script>
