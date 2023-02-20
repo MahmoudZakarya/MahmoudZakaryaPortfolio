@@ -71,9 +71,9 @@ export default function Home() {
           <a href="#" className="logo">Mahmoud  <span>Zakaria</span></a>
           <p className="text">&copy; Copyrights 2023, All Rights Reserved.</p>
           <ul className="social-media">
-            <li><a href="#" className="social-link"><i class="uil uil-facebook-f"></i></a></li>
-            <li><a href="#" className="social-link"><i class="uil uil-twitter"></i></a></li>
-            <li><a href="#" className="social-link"><i class="uil uil-github"></i></a></li>
+            <li><a href="#" className="social-link"><i className="uil uil-facebook-f"></i></a></li>
+            <li><a href="#" className="social-link"><i className="uil uil-twitter"></i></a></li>
+            <li><a href="#" className="social-link"><i className="uil uil-github"></i></a></li>
           </ul>
 
         </div>
