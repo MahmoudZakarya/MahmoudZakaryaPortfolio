@@ -7,6 +7,7 @@
 }
 
 .showcase-area .container {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 500px;
   height: calc(100vh - 120px);
@@ -37,7 +38,7 @@
 .text {
   color: var(--text-color);
   font-size: 0.9rem;
-  margin: 2rem 0;
+  margin: 0.8rem 0;
   line-height: 2.3;
 }
 
