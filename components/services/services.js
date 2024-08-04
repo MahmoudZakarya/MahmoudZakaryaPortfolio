@@ -69,12 +69,12 @@ function Services() {
                  enim, vitae placeat labore cupiditate dignissimos.</p>
                  <div className="milestones" ref={mlSection}>
                     <div className="ml">
-                        <h2 className="number"><span data-target="11">0</span>+</h2>
+                        <h2 className="number"><span data-target="3">0</span>+</h2>
                         <h5>Years</h5>
                     </div>
 
                     <div className="ml">
-                        <h2 className="number"><span data-target="50">0</span>+</h2>
+                        <h2 className="number"><span data-target="11">0</span>+</h2>
                         <h5>Projects</h5>
                     </div>
 

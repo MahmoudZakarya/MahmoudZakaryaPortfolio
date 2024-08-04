@@ -118,7 +118,7 @@ function Skills() {
                             <circle  cx='75' cy='75' r="68"/>
                         </svg>
                         <h2 className="counter">
-                            <span data-target="54">0</span>%
+                            <span data-target="76">0</span>%
                         </h2>
                     </div>
                     <div className="sk-title">UI Design</div>

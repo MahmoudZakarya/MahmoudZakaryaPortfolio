@@ -1,5 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Umf1Img from '../../public/assets/umf1.png'
+import Squadra1Img from '../../public/assets/squadra.png'
+import Tbc1Img from '../../public/assets/tbc.png'
+import Sptify1Img from '../../public/assets/spotify.png'
+
 import Image from 'next/image'
 import dynamic from 'next/dynamic';
 
@@ -106,10 +110,10 @@ function Portfolio() {
                         <i className="uil uil-arrow-left"></i>
                     </div>
                     <div className="images">
-                        <Image className='showImage' src={Umf1Img} alt=''/>
+                        <Image  src={Squadra1Img} alt=''/>
                         <Image src={Umf1Img} alt=''/>
-                        <Image src={Umf1Img} alt=''/>
-                        <Image src={Umf1Img} alt=''/>
+                        <Image src={Tbc1Img} alt=''/>
+                        <Image src={Sptify1Img} alt=''/>
                         <Image src={Umf1Img} alt=''/>
                     </div>
                     <div className="next-btn navigation" ref={next_btn} onClick={()=>{
@@ -144,21 +148,21 @@ function Portfolio() {
             <div className="portfolio-gallery" >  
                 <div className="mix prt-card product" >
                     <div className="prt-image">
-                        <Image src={Umf1Img} alt='' />
+                        <Image src={Squadra1Img} alt='' />
                         <div className="prt-overlay">
                             <span className="prt-icon zoom-icon" style={{"--i": 0+'s' }}>
                                 <i className="uil uil-search-plus"></i>
                             </span> 
 
-                            <a href="#" className="prt-icon" style={{"--i": 0.15+'s' }}>
+                            <a href="https://mahmoudzakarya.github.io/Squadra/" target="_" className="prt-icon" style={{"--i": 0.15+'s' }}>
                                  <i className="uil uil-link-h"></i>
                                   </a>
 
                          </div>
                     </div>
                     <div className="prt-desc">
-                        <h3>Olido Interaction</h3>
-                        <a href="#" className="btn secondary-btn sm">Read More</a>
+                        <h3>Squadra Stand Up Comedy</h3>
+                        {/* <a href="#" className="btn secondary-btn sm">Read More</a> */}
                     </div>
                 </div>
                 <div className="mix prt-card interacting">
@@ -169,20 +173,20 @@ function Portfolio() {
                                 <i className="uil uil-search-plus"></i>
                             </span> 
 
-                            <a href="#" className="prt-icon" style={{"--i": 0.15+'s' }}>
+                            <a href="https://mahmoudzakarya.github.io/UMF/" target="_" className="prt-icon" style={{"--i": 0.15+'s' }}>
                                  <i className="uil uil-link-h"></i>
                                   </a>
                             
                          </div>
                     </div>
                     <div className="prt-desc">
-                        <h3>Olido Interaction</h3>
-                        <a href="#" className="btn secondary-btn sm">Read More</a>
+                        <h3>UNKNOWN META FIGHT NFT</h3>
+                        {/* <a href="#" className="btn secondary-btn sm">Read More</a> */}
                     </div>
                 </div>
                 <div className="mix prt-card web-app">
                     <div className="prt-image">
-                        <Image src={Umf1Img} alt='' />
+                        <Image src={Tbc1Img} alt='' />
                         <div className="prt-overlay">
                             <span className="prt-icon zoom-icon" style={{"--i": 0+'s' }}>
                                 <i className="uil uil-search-plus"></i>
@@ -195,27 +199,46 @@ function Portfolio() {
                          </div>
                     </div>
                     <div className="prt-desc">
-                        <h3>Olido Interaction</h3>
-                        <a href="#" className="btn secondary-btn sm">Read More</a>
+                        <h3>TBC Law Co.</h3>
+                        <a href="https://turkel-barrios-cuva.vercel.app/" target="_" className="btn secondary-btn sm">Read More</a>
                     </div>
                 </div>
                 <div className="mix prt-card web-app">
                     <div className="prt-image">
-                        <Image src={Umf1Img} alt='' />
+                        <Image src={Sptify1Img} alt='' />
                         <div className="prt-overlay">
                             <span className="prt-icon zoom-icon" style={{"--i": 0+'s' }}>
                                 <i className="uil uil-search-plus"></i>
                             </span> 
 
-                            <a href="#" className="prt-icon" style={{"--i": 0.15+'s' }}>
+                            <a href="https://spotifyclient.vercel.app/" target="_" className="prt-icon" style={{"--i": 0.15+'s' }}>
                                  <i className="uil uil-link-h"></i>
                                   </a>
                             
                          </div>
                     </div>
                     <div className="prt-desc">
-                        <h3>Olido Interaction</h3>
-                        <a href="#" className="btn secondary-btn sm">Read More</a>
+                        <h3>Spotify Client</h3>
+                        {/* <a href="#" className="btn secondary-btn sm">Read More</a> */}
+                    </div>
+                </div>
+                  <div className="mix prt-card web-app">
+                    <div className="prt-image">
+                        <Image src={Sptify1Img} alt='' />
+                        <div className="prt-overlay">
+                            <span className="prt-icon zoom-icon" style={{"--i": 0+'s' }}>
+                                <i className="uil uil-search-plus"></i>
+                            </span> 
+
+                            <a href="https://spotifyclient.vercel.app/" target="_" className="prt-icon" style={{"--i": 0.15+'s' }}>
+                                 <i className="uil uil-link-h"></i>
+                                  </a>
+                            
+                         </div>
+                    </div>
+                    <div className="prt-desc">
+                        <h3>LinkedIn Clone</h3>
+                        {/* <a href="#" className="btn secondary-btn sm">Read More</a> */}
                     </div>
                 </div>
             </div>
