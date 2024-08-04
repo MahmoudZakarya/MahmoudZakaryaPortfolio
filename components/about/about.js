@@ -46,7 +46,7 @@ function About() {
                  - then use that insight to create a polished,
                   intuitive user experience that sets you apart from your competitors.</p>
              <div className="cta">
-                <a href="mailto:mahmoudzakaria1011@gmail.com" className="btn">Contact Me</a>
+                <a href="https://wa.link/8b64nx" target="_" className="btn">Contact Me</a>
                 <a href='assets/mahmoudCV.pdf' download target="_blank" className="btn secondary-btn" rel="noreferrer">Download CV</a>
              </div>
         </div>

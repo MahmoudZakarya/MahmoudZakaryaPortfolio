@@ -110,6 +110,8 @@
   position: absolute;
   right: 0;
   bottom: 0;
+  width: 29%;
+  height: auto;
 }
 
 .section-background .circle {

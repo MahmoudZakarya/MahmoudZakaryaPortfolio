@@ -71,12 +71,12 @@ function Services() {
                     </div>
 
                     <div className="ml">
-                        <h2 className="number"><span data-target="11">0</span>+</h2>
+                        <h2 className="number"><span data-target="19">0</span>+</h2>
                         <h5>Projects</h5>
                     </div>
 
                     <div className="ml">
-                        <h2 className="number"><span data-target="4">0</span>+</h2>
+                        <h2 className="number"><span data-target="13">0</span>+</h2>
                         <h5>Clients</h5>
                     </div>
 

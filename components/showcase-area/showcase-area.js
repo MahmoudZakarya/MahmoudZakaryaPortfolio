@@ -33,7 +33,7 @@ function ShowCaseArea() {
               <h1 className="heading">Mahmoud Mohammed Zakaria</h1>
               <p className="text">I am a freelance web developer, Let`s work together</p>
               <div className="cta">
-                <a href="mailto:mahmoudzakaria1011@gmail.com" className="btn">Contact Me</a>
+                <a href="https://wa.link/8b64nx" target="_" className="btn">Contact Me</a>
                 <a href='assets/mahmoudCV.pdf' download target="_blank" className="btn secondary-btn" rel="noreferrer">Download CV</a>
               </div>
             
@@ -41,10 +41,11 @@ function ShowCaseArea() {
             <div className="showcase-image" ref={showcaseImg}>
 
               <img className='person' src='assets/person1.png' alt="Mahmoud Zakaria" />
-              <img className='shape circle' src='assets/circle1.png' alt="" />
-              <img className='shape dots' src='assets/dots.png' alt="" />
+              
                 
             </div>
+            <img className='shape circle' src='assets/circle1.png' alt="" />
+              <img className='shape dots' src='assets/dots.png' alt="" />
         </div>
     </section>
   )
