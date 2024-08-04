@@ -67,12 +67,15 @@ function Skills() {
                     <h1 className="heading">Let Me Help You</h1>
                     <div className="box-desc">
                         <p className="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quos sequi numquam
-                             autem quam incidunt ex minima officiis?
-                             Beatae repudiandae, esse voluptates nam qui incidunt nostrum inventore sunt assumenda enim dolor sint debitis
-                             voluptatem perferendis tempora ex expedita magnam odit ut cum temporibus? Quis, illum.
+                            As an experienced front-end developer focused on TypeScript and React.js, 
+                            I believe I can provide a significantly better design solution for your project compared to what you currently have.
+
+                            While your existing website may function adequately, I can tell it's lacking the level of visual appeal, 
+                            interactivity, and user-friendliness that modern web users have come to expect
+                            My expertise in crafting responsive, dynamic interfaces would 
+                            allow me to transform your online presence into something truly compelling and engaging for your audience.
                         </p>
-                        <a href="#" className="btn">Hire Me</a>
+                        <a href="mailto:mahmoudzakaria1011@gmail.com" className="btn">Hire Me</a>
                     </div>
                 </div>
                 <div className="skills-wrap">

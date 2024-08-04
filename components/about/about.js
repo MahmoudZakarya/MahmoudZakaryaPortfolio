@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import Image from 'next/image'
 import ResearchIcon from '../../public/assets/research.svg'
@@ -39,10 +40,11 @@ function About() {
             <div className="about-info">
               <h3 className="sub-heading">About Me</h3>
               <h1 className="heading">Better design, <br /> Better experiences</h1>
-              <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Voluptate tenetur nobis voluptatem repellendus beatae delectus cupiditate eius 
-              esse rerum sunt amet deserunt sequi provident inventore quos explicabo iure minus 
-              temporibus, sint eum dolorum fuga accusamus? Aut veniam mollitia voluptatem magnam!</p>
+              <p className="text">With my deep knowledge of the latest front-end frameworks and best practices,
+                 I can rebuild your site from the ground up to be not just functional, but beautifully designed. 
+                 I'll work closely with you to understand your brand, your users' needs, and your business goals
+                 - then use that insight to create a polished,
+                  intuitive user experience that sets you apart from your competitors.</p>
              <div className="cta">
                 <a href="mailto:mahmoudzakaria1011@gmail.com" className="btn">Contact Me</a>
                 <a href='assets/mahmoudCV.pdf' download target="_blank" className="btn secondary-btn" rel="noreferrer">Download CV</a>

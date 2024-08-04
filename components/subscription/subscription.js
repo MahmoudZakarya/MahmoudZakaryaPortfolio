@@ -19,9 +19,9 @@ function Subscription() {
                         Newsletter
                     </h3>
                     <h1 className="heading">Get News About My Projects</h1>
-                    <p className="text">Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit.
-                     Obcaecati porro error explicabo asperiores praesentium maiores!</p>
+                    <p className="text">Be sure to subscribe to my newsletter to stay up-to-date on the latest front-end development trends, tips, and insights I'm sharing.
+
+</p>
                 </div>
                 <form action="index.html">
                     <input type="email" placeholder='Email'  className="form-input" required />

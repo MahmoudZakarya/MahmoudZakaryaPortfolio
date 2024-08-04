@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image'
 import React from 'react'
 import TriangleImg from '../../public/assets/triangle.png'
@@ -14,11 +15,9 @@ function Contact() {
             <div className="contact-info">
                 <h3 className="sub-heading">Contact Me</h3>
                 <h1 className="heading">Let`s Work Together</h1>
-                <p className="text">Lorem, ipsum dolor
-                 sit amet consectetur adipisicing elit. 
-                Explicabo provident, distinctio 
-                amet sequi iste reiciendis
-                 rem nesciunt perspiciatis sint corrupti.</p>
+                <p className="text">I'd welcome the opportunity to discuss how I can leverage my front-end development skills to create an exceptional user experience for your business. Please feel free to reach out whenever you're ready to explore working together.
+
+.</p>
                  <a href="mailto:mahmoudzakaria1011@gmail.com" className="mail">mahmoudzakaria1011@gmail.com <i className="uil uil-arrow-right"></i></a>
             </div>
             <form action="index.html" className="contact-form">

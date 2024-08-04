@@ -3,7 +3,7 @@ import Umf1Img from '../../public/assets/umf1.png'
 import Squadra1Img from '../../public/assets/squadra.png'
 import Tbc1Img from '../../public/assets/tbc.png'
 import Sptify1Img from '../../public/assets/spotify.png'
-
+import LinkedInClone1Img from '../../public/assets/linkedinclone.png'
 import Image from 'next/image'
 import dynamic from 'next/dynamic';
 
@@ -114,7 +114,7 @@ function Portfolio() {
                         <Image src={Umf1Img} alt=''/>
                         <Image src={Tbc1Img} alt=''/>
                         <Image src={Sptify1Img} alt=''/>
-                        <Image src={Umf1Img} alt=''/>
+                        <Image src={LinkedInClone1Img} alt=''/>
                     </div>
                     <div className="next-btn navigation" ref={next_btn} onClick={()=>{
             if(currentIndex === 4){
@@ -224,13 +224,13 @@ function Portfolio() {
                 </div>
                   <div className="mix prt-card web-app">
                     <div className="prt-image">
-                        <Image src={Sptify1Img} alt='' />
+                        <Image src={LinkedInClone1Img} alt='' />
                         <div className="prt-overlay">
                             <span className="prt-icon zoom-icon" style={{"--i": 0+'s' }}>
                                 <i className="uil uil-search-plus"></i>
                             </span> 
 
-                            <a href="https://spotifyclient.vercel.app/" target="_" className="prt-icon" style={{"--i": 0.15+'s' }}>
+                            <a href="https://mahmoudzakarya.github.io/linkedinClone/" target="_" className="prt-icon" style={{"--i": 0.15+'s' }}>
                                  <i className="uil uil-link-h"></i>
                                   </a>
                             

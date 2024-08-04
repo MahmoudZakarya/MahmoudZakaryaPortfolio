@@ -69,7 +69,7 @@ export default function Home() {
       <footer>
         <div className="container">
           <a href="#" className="logo">Mahmoud  <span>Zakaria</span></a>
-          <p className="text">&copy; Copyrights 2023, All Rights Reserved.</p>
+          <p className="text">&copy; Copyrights 2024, All Rights Reserved.</p>
           <ul className="social-media">
             <li><a href="#" className="social-link"><i className="uil uil-facebook-f"></i></a></li>
             <li><a href="#" className="social-link"><i className="uil uil-twitter"></i></a></li>
