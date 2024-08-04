@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image';
 import React, { useEffect, useRef } from 'react'
 import DotsImg from '../../public/assets/dots.png'
