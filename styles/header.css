@@ -10,7 +10,7 @@
 
 .logo {
   margin-right: 1.5rem;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Abril Fatface", sans, cursive;
   font-size: 1.5rem;
   color: var(--heading-color);
   letter-spacing: 1px;
