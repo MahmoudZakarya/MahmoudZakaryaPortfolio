@@ -5,8 +5,13 @@ function Header() {
   function openNav(){
     if(!document.body.classList.contains("open")){
       document.body.classList.add("open");
+      document.body.classList.add("stopScrolling");
+
     }else{
       document.body.classList.remove("open");
+      document.body.classList.remove("stopScrolling");
+
+
 
     }
   }
@@ -14,6 +19,7 @@ function Header() {
   function closeNav(){
    
       document.body.classList.remove("open");
+      document.body.classList.remove("stopScrolling");
    
   }
 

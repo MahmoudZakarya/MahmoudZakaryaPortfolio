@@ -262,7 +262,7 @@
 
   .about .container {
     grid-template-columns: 1fr;
-    left: -8%;
+    left: -0%;
   }
 
   .about-grid {
@@ -318,7 +318,7 @@
   .services .container {
     grid-template-columns: 1fr;
     justify-items: center;
-    left: -5%;
+    left: -0%;
   }
 
   .services .text {
@@ -456,5 +456,39 @@
     height: auto;
     left: 65%;
     bottom: 30%;
+  }
+}
+
+@media (max-width: 440px) {
+  .showcase-image {
+    max-height: calc(96vh - 82.5px);
+
+    margin-top: -70px;
+  }
+
+  .showcase-image .person {
+    bottom: -35%;
+  }
+
+  .container {
+    padding: 0 0.2rem;
+  }
+
+  .heading {
+    font-size: 1.6rem;
+  }
+
+  .text {
+    font-size: 0.79rem;
+    word-break: break-word;
+  }
+  .about .container {
+    grid-template-columns: 1fr;
+    left: -0%;
+  }
+
+  .services .container {
+    grid-template-columns: 1fr;
+    left: -0%;
   }
 }

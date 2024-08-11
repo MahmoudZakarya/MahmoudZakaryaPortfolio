@@ -82,7 +82,7 @@ body {
   background-color: var(--bg-color);
 }
 
-.stopScrolling {
+body.stopScrolling {
   height: 100%;
   overflow: hidden;
 }

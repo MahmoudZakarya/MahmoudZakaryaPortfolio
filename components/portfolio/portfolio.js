@@ -5,7 +5,6 @@ import Tbc1Img from '../../public/assets/tbc.png'
 import Sptify1Img from '../../public/assets/spotify.png'
 import LinkedInClone1Img from '../../public/assets/linkedinclone.png'
 import Image from 'next/image'
-import dynamic from 'next/dynamic';
 
  
 
@@ -24,7 +23,32 @@ function Portfolio() {
     const next_btn = useRef(null);
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    
+
+    const prevClickHandler = ()=>{
+            if(currentIndex === 0){
+                setCurrentIndex(4)
+                
+                changeImage(currentIndex)
+            }else{
+                setCurrentIndex(currentIndex-1)
+                
+                changeImage(currentIndex)
+            }
+           
+        }
+
+
+    const nextClickHandler = ()=>{
+            if(currentIndex === 4){
+                setCurrentIndex(0)
+                
+                changeImage(currentIndex)
+            }else{
+                setCurrentIndex(currentIndex+1)
+                
+                 changeImage(currentIndex)
+                    }}
+
 
     useEffect(()=>{
 
@@ -45,7 +69,6 @@ function Portfolio() {
     }); 
 
  
-        //  =   document.querySelectorAll(".images img")
       
     
 
@@ -53,8 +76,8 @@ function Portfolio() {
       function changeImage(index){
         const images = document.querySelectorAll(".images img")
           images.forEach((img)=>{
-              img.classList.remove("showImage")
               images[index].classList.add("showImage")
+              img.classList.remove("showImage")
           })
       }
     useEffect(()=>{
@@ -62,21 +85,22 @@ function Portfolio() {
 
 
         
-        const zoomIcons = document.querySelectorAll(".zoom-icon");
+            const zoomIcons = document.querySelectorAll(".zoom-icon");
 
-        zoomIcons.forEach((icon, i) => {
-            icon.addEventListener("click", ()=>{
-                setCurrentIndex(i);
-                changeImage(currentIndex)
-            prtSection.current.classList.add("open");
-            document.body.classList.add("stopScrolling");
-
+            zoomIcons.forEach((icon, i) => {
+             icon.addEventListener("click",  (e)=> {
+                
+                prtSection.current.classList.add("open");
+                document.body.classList.add("stopScrolling");
+                changeImage(i);
+                
         }
         )
     }
     );
 
         modalOverlay.current.addEventListener("click", ()=>{
+        
             prtSection.current.classList.remove('open')
             document.body.classList.remove("stopScrolling");
 
@@ -95,18 +119,7 @@ function Portfolio() {
         <div className="modal">
             <div className="modal-overlay" ref={modalOverlay}></div>
                 <div className="slider-wrap">
-                    <div className="prev-btn navigation" ref={prev_btn} onClick={()=>{
-            if(currentIndex === 0){
-                setCurrentIndex(4)
-                console.log(currentIndex)
-            changeImage(currentIndex)
-            }else{
-                setCurrentIndex(currentIndex-1)
-                console.log(currentIndex)
-            changeImage(currentIndex)
-            }
-           
-        }}>
+                    <div className="prev-btn navigation" ref={prev_btn} onClick={prevClickHandler}>
                         <i className="uil uil-arrow-left"></i>
                     </div>
                     <div className="images">
@@ -115,17 +128,11 @@ function Portfolio() {
                         <Image src={Tbc1Img} alt=''/>
                         <Image src={Sptify1Img} alt=''/>
                         <Image src={LinkedInClone1Img} alt=''/>
+                        <Image src={LinkedInClone1Img} alt=''/>
+
+
                     </div>
-                    <div className="next-btn navigation" ref={next_btn} onClick={()=>{
-            if(currentIndex === 4){
-                setCurrentIndex(0)
-                console.log(currentIndex)
-            changeImage(currentIndex)
-            }else{
-                setCurrentIndex(currentIndex + 1)
-                console.log(currentIndex)
-            changeImage(currentIndex)
-                    }}}>
+                    <div className="next-btn navigation" ref={next_btn} onClick={nextClickHandler}>
                         <i className="uil uil-arrow-right"></i>
                     </div>
                 </div>
@@ -192,7 +199,7 @@ function Portfolio() {
                                 <i className="uil uil-search-plus"></i>
                             </span> 
 
-                            <a href="#" className="prt-icon" style={{"--i": 0.15+'s' }}>
+                            <a href="https://turkel-barrios-cuva.vercel.app/" target="_"  className="prt-icon" style={{"--i": 0.15+'s' }}>
                                  <i className="uil uil-link-h"></i>
                                   </a>
                             
@@ -200,7 +207,7 @@ function Portfolio() {
                     </div>
                     <div className="prt-desc">
                         <h3>TBC Law Co.</h3>
-                        <a href="https://turkel-barrios-cuva.vercel.app/" target="_" className="btn secondary-btn sm">Read More</a>
+                        {/* <a href="https://turkel-barrios-cuva.vercel.app/" target="_" className="btn secondary-btn sm">Read More</a> */}
                     </div>
                 </div>
                 <div className="mix prt-card web-app">
