@@ -180,7 +180,7 @@ function Portfolio() {
                                 <i className="uil uil-search-plus"></i>
                             </span> 
 
-                            <a href="https://mahmoudzakarya.github.io/UMF/" target="_" className="prt-icon" style={{"--i": 0.15+'s' }}>
+                            <a href="https://mahmoudzakarya.github.io/UMF/" target="_blank" rel="noreferrer" className="prt-icon" style={{"--i": 0.15+'s' }}>
                                  <i className="uil uil-link-h"></i>
                                   </a>
                             
@@ -199,7 +199,7 @@ function Portfolio() {
                                 <i className="uil uil-search-plus"></i>
                             </span> 
 
-                            <a href="https://turkel-barrios-cuva.vercel.app/" target="_"  className="prt-icon" style={{"--i": 0.15+'s' }}>
+                            <a href="https://turkel-barrios-cuva.vercel.app/" target="_blank" rel="noreferrer"  className="prt-icon" style={{"--i": 0.15+'s' }}>
                                  <i className="uil uil-link-h"></i>
                                   </a>
                             
@@ -207,7 +207,7 @@ function Portfolio() {
                     </div>
                     <div className="prt-desc">
                         <h3>TBC Law Co.</h3>
-                        {/* <a href="https://turkel-barrios-cuva.vercel.app/" target="_" className="btn secondary-btn sm">Read More</a> */}
+                        {/* <a href="https://turkel-barrios-cuva.vercel.app/" target="_blank" rel="noreferrer" className="btn secondary-btn sm">Read More</a> */}
                     </div>
                 </div>
                 <div className="mix prt-card web-app">
@@ -218,7 +218,7 @@ function Portfolio() {
                                 <i className="uil uil-search-plus"></i>
                             </span> 
 
-                            <a href="https://spotifyclient.vercel.app/" target="_" className="prt-icon" style={{"--i": 0.15+'s' }}>
+                            <a href="https://spotifyclient.vercel.app/" target="_blank" rel="noreferrer" className="prt-icon" style={{"--i": 0.15+'s' }}>
                                  <i className="uil uil-link-h"></i>
                                   </a>
                             
@@ -237,7 +237,7 @@ function Portfolio() {
                                 <i className="uil uil-search-plus"></i>
                             </span> 
 
-                            <a href="https://mahmoudzakarya.github.io/linkedinClone/" target="_" className="prt-icon" style={{"--i": 0.15+'s' }}>
+                            <a href="https://mahmoudzakarya.github.io/linkedinClone/" target="_blank" rel="noreferrer" className="prt-icon" style={{"--i": 0.15+'s' }}>
                                  <i className="uil uil-link-h"></i>
                                   </a>
                             
